@@ -18,8 +18,10 @@
 
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/bh.css">
-
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+
  <!--[if lte IE 8]>
      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
  <![endif]-->
@@ -31,15 +33,12 @@
  <!-- Header and Nav -->
  
   <div class="row">
-    <div class="large-3 columns">
-      <h1><img src="http://placehold.it/400x100&text=Logo"></h1>
-    </div>
-    <div class="large-9 columns">
+    <div class="large-12 columns">
       <ul class="button-group right">
         <li><a href="#" class="button">Link 1</a></li>
-        <li><a href="#" class="button">Link 2</a></li>
-        <li><a href="#" class="button">Link 3</a></li>
-        <li><a href="#" class="button">Link 4</a></li>
+        <li><a href="#PortfolioProjects" class="button">Portfolio Projects</a></li>
+        <li><a href="#Workflow" class="button">Workflow</a></li>
+        <li><a href="#ContactUs" class="button">Contact Us</a></li>
       </ul>
     </div>
   </div>
@@ -47,18 +46,31 @@
   <!-- End Header and Nav -->
  
  
-<div class="row">
-    <div class="large-12 columns">
-	<h1>Bronze Horseman Inc.</h1>
-      <hr>
+  <div class="row">
+    <div class="large-8 columns">
+      <h1>Bronze Horseman Inc.</h1>
+    </div>
+    <div class="large-4 columns">
+      <p><i>City of Peter, just you shine<br/>
+        And stand unshakable as Russia!<br/>
+        May make a peace with beauty, thine,<br/>
+        The conquered nature’s casual rushes;<br/>
+        And let the Finnish waves forget<br/>
+        Their ancient bondages and malice<br/>
+        And not disturb with their hate senseless<br/>
+        The endless sleep of Peter, great!<br/>
+        <b><u>Aleksandr Pushkin, "The Bronze Horseman: A Petersburg Story", 1833</u></b></i>
+      </p>
     </div>
   </div>
+  
+  <hr>
   <!-- First Band (Image) -->
  
   <div class="row">
     <div class="large-12 columns">
-      <img src="http://placehold.it/1000x400&text=[img]">
- 
+      <img src="img/bh-main-image.jpg">
+    
       <hr>
     </div>
   </div>
@@ -100,63 +112,74 @@
     </div>
   </div>
   
-  <div class="row">
-    <div class="large-12 columns">
-	<h3>Portfolio Projects</h3>
-	<ul data-orbit>
-		<li>
-			<img src="img/PB tech architecture.jpg" />
-			<div class="orbit-caption">PortBlue: The technical architecture as presented to investors.</div>
-		</li>
-		<li>
-			<img src="img/PB sample module page.jpg" />
-			<div class="orbit-caption">PortBlue: A sample module page at an early stage of the company's development.</div>
-		</li>
-		<li>
-			<img src="img/Channel requiem.jpg" />
-			<div class="orbit-caption">Channel requiem: A humorous look at the death of a trading product - to be reborn into another.</div>
-		</li>
-	</ul>
-    </div>
-  </div>
+  <section id="PortfolioProjects">
+    <div class="row">
+      <div class="large-12 columns">
+       <h3>Portfolio Projects</h3>
+       <ul data-orbit>
+        <li>
+         <img src="img/PB tech architecture.jpg" />
+         <div class="orbit-caption">PortBlue: The technical architecture as presented to investors.</div>
+       </li>
+       <li>
+         <img src="img/PB sample module page.jpg" />
+         <div class="orbit-caption">PortBlue: A sample module page at an early stage of the company's development.</div>
+       </li>
+       <li>
+        <img src="img/PositAlert.png" />
+        <div class="orbit-caption">PositAlert: A global trading application for I've created numerous Web service interfaces and added many input sources.</div>
+      </li>
+      <li>
+       <img src="img/Channel requiem.jpg" />
+       <div class="orbit-caption">Channel requiem: A humorous look at the death of a trading product - to be reborn into another.</div>
+     </li>
+   </ul>
+ </div>
+</div>
+</section>
   
+<section id="Workflow">
   <div class="row">
     <div class="large-12 columns">
-		<div id="map"></div>
-		<ul class="vcard">
-			<li class="fn">Mark Auburn</li>
-			<li class="street-address">214 Main Street #465</li>
-			<li class="locality">El Segundo</li>
-			<li><span class="state">California</span>, <span class="zip">90245</span></li>
-			<li class="email"><a href="#">mark@bronzehorseman.com</a></li>
-		</ul>
+      <h3>Workflow</h3>
+      <p id="chart"/>
     </div>
   </div>
+</section>
 
- 
-<p id="chart">
- 
+<section id="ContactUs">
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Contact Us</h3>
+      <div class="row">
+        <div class="large-9 columns">
+          <div id="map"></div>
+        </div>
+        <div class="large-3 columns">
+          <ul class="vcard">
+           <li class="fn">Mark Auburn</li>
+           <li class="street-address">214 Main Street #465</li>
+           <li class="locality">El Segundo</li>
+           <li><span class="state">California</span>, <span class="zip">90245</span></li>
+           <li class="email"><a href="#">mark@bronzehorseman.com</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </section>
 
   <!-- Footer -->
- 
+
   <footer class="row">
     <div class="large-12 columns">
       <hr />
       <div class="row">
-        <div class="large-6 columns">
-          <p>&copy; Copyright Bronze Horseman Inc.</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+       <div class="large-12 columns">
+         <p>&copy; Copyright Bronze Horseman Inc.</p>
+       </div>
+     </div>
+   </div>
+ </footer>
 
   <script>
   document.write('<script src=' +
@@ -188,45 +211,10 @@
   </script>
 
   <script src="js/d3.v3.js"></script>
-<script src="js/sankey.js"></script>
-<script src="js/sankeysetup.js"></script>
+  <script src="js/sankey.js"></script>
+  <script src="js/sankeysetup.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+  <script src="js/mapsetup.js"></script>
 
-<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
-
-<script>
-
-//var latDeg = 33.91832;
-//var longDeg = -118.41574;
-//var latRad = latDeg * (Math.PI/180.0);
-//var n = Math.pow(2, zoom);
-//var xtile = ((longDeg + 180.0) / 360.0) * n;
-//var interim = Math.tan(latRad) + (1.0/Math.cos(latRad));
-//var ytile = (1.0 - (Math.log(interim) / Math.PI)) / 2.0 * n;
-//alert("Zoom is " + zoom + ", n is " + n + ", xtile is " + xtile + ", ytile is " + ytile);
-
-var defaultZoom = 13;
-var bhLoc = [33.91832, -118.41574];
-var laxLoc = [33.94250, -118.40806];
-var laLoc = [34.05223, -118.24368];
-var mdrLoc = [33.98029, -118.45174];
-var esLoc = [33.91918, -118.41647];
-var map = L.map('map').setView(mdrLoc, defaultZoom);
-
-L.tileLayer('http://{s}.tile.cloudmade.com/1c633b30b4e14520b6140a6ce9765bc0/997/256/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
-    maxZoom: 18
-}).addTo(map);
-
-var marker = L.marker(bhLoc).addTo(map);
-marker.bindPopup("<b>Bronze Horseman</b>").openPopup();
-
- //var circle = L.circle([51.508, -0.11], 500, {
- //   color: 'red',
- //   fillColor: '#f03',
- //   fillOpacity: 0.5
-//}).addTo(map);
-   
-</script>
- 
 </body>
 </html>
